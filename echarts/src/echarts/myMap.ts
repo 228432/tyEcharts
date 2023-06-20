@@ -252,9 +252,9 @@
     tooltip: {
       trigger: "item",
       formatter: function(params:any , ticket:any , callback:any ){
-        if (params.seriesType == "effectScatter") {
+        if (params.seriesType === "effectScatter") {
           return "线路：" + params.data.name + "" + params.data.value[2];
-        } else if (params.seriesType == "lines") {
+        } else if (params.seriesType === "lines") {
           return (
             params.data.fromName +
             ">" +

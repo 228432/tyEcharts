@@ -72,8 +72,7 @@ const option = {
             width:2
         },
         areaStyle: {
-            color: new echarts.graphic.
-            LinearGradient(
+            color: new echarts.graphic.LinearGradient(
                 0,0,0,1,
                 [{offset:1,color:'rgba(1,132,213,0.6)'}
                 ,{offset:1,color:'rgba(1,132,213,0.1)'}]
@@ -95,8 +94,7 @@ const option = {
             width:2
         },
         areaStyle: {
-            color: new echarts.graphic.
-            LinearGradient(
+            color: new echarts.graphic.LinearGradient(
                 0,0,0,1,
                 [{offset:0,color:'rgba(0,216,135,0.4)'}
                 ,{offset:1,color:'rgba(0,216,135,0.1)'}]
